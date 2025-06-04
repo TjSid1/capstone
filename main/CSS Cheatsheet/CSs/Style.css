@@ -1,0 +1,173 @@
+
+
+body {
+    background-color: #f4f4f4;
+    color:darkgray;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 1.6em ;
+    padding-bottom:1000px;
+}
+
+.container{
+    width:80%;
+    margin:auto;
+    margin-top: 13px;
+}
+
+.box-1{
+    background-color: black;
+    color: white;
+    border-right: 5px red solid;
+    border-left: 5px red solid;
+    border-top: 5px red solid;
+    border-bottom: 5px red solid;
+
+    padding: 20px;
+
+    margin-top: 20px;
+}
+
+.box-1 h1{
+    font-family: tahoma;
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    word-spacing: 1em;
+}
+
+.box-2{
+    border: 3px dotted gray;
+    padding: 10px;
+    margin: 20px 0;
+}
+
+.categories{
+    border: 1px lightgray solid;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.categories h2{
+    text-align: center;
+}
+
+.categories ul{
+    padding: 10px;
+    list-style: square;
+    list-style: none;
+}
+
+.categories li {
+    padding-bottom: 1px;
+    border-bottom: dotted 1px #333;
+    list-style-image: url('../images/check.png');
+}
+
+
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: green;
+}
+a:active{
+    color: red;
+}
+.Myform{
+padding:20px;
+}
+.form-group{
+    padding-bottom:15px;
+}
+.Myform label{
+    display:block;
+}
+
+.Myform input[type=text], .myform textarea{
+    padding: 8px;
+    width: 100%;
+}
+
+.button{
+    background-color: black;
+    color:white;
+    padding: 10px 15px;
+    border:none;
+}
+
+.button:hover{
+    color: darkgreen;
+}
+
+.block{
+    float:left;
+    width:33.3%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.longer{
+    margin-bottom:100px;
+}
+#main-block{
+    float:left;
+    width:70%;
+}
+#sidebar{
+    float:right;
+    width:30%;
+    background-color: #333;
+    color: white;
+    padding:15px;
+    box-sizing: border-box;
+}
+.clr{
+    clear:both;
+}
+.p-box{
+    width:800px;
+    height:500px;
+    border:1px solid black;
+    margin-top: 30px;
+    position:relative;
+    background-image:url('../Images/R.jpg');
+    background-repeat: no-repeat;
+    background-position:100px 200px;
+    background-position: center top;
+}
+
+.p-box h1{
+    position: absolute;
+    top: 40px;
+    left: 200px;    
+}
+
+.p-box h2{
+    position:absolute;
+    bottom: 80px;
+
+}
+
+.fix-me{
+    position:fixed;
+    top:400px;
+}
+
+.mylist li:first-child{
+    background: red;
+}
+
+.mylist li:last-child{
+    background:blue;
+}
+
+.mylist li:nth-child(5){
+    background: yellow;
+}
